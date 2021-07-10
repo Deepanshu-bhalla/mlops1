@@ -8,9 +8,9 @@ RUN pip3 install joblib
 
 RUN pip3 install scikit-learn
 
-COPY marks.pkl /
+COPY marks.pkl /mlops1
 
-COPY markscode.py /
+COPY markscode.py /mlops1
 
 CMD python3 markscode.py
 
